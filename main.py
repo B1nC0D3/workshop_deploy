@@ -4,7 +4,7 @@ import uvicorn
 app = FastAPI()
 
 
-@app.get('/')
+@app.get('/does_it_work/')
 def some_route():
     return 'working'
 
