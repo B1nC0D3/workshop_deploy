@@ -2,8 +2,10 @@
 Description=api example for deploy
 
 [Service]
+Type=simple
 ExecStart=/home/student/workshop_deploy/venv/bin/python3 main.py
 Restart=always
+RestartSec=5
 
 [Install]
 WantedBy=multi-user.target
