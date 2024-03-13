@@ -2,7 +2,7 @@
 Description=api example for deploy
 
 [Service]
-ExecStart=~/workshop_deploy/venv/bin/python3 main.py
+ExecStart=/home/student/workshop_deploy/venv/bin/python3 main.py
 Restart=always
 
 [Install]
