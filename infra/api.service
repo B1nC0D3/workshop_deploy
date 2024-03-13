@@ -3,7 +3,7 @@ Description=api example for deploy
 
 [Service]
 Type=simple
-ExecStart=/home/student/workshop_deploy/venv/bin/python3 main.py
+ExecStart=/home/student/workshop_deploy/venv/bin/python3 /home/student/workshop_deploy/main.py
 Restart=always
 RestartSec=5
 
