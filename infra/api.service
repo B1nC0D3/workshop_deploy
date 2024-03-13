@@ -1,0 +1,9 @@
+[Unit]
+Description=api example for deploy
+
+[Service]
+ExecStart=~/workshop_deploy/venv/bin/python3 main.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
